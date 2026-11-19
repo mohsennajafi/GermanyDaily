@@ -20,9 +20,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
   <meta name="theme-color" content="#1e3a8a" />
+  <meta name="description" content="German Daily؛ یادگیری روزانه واژگان، افعال و گرامر آلمانی با مرور هوشمند." />
+  <meta name="apple-mobile-web-app-title" content="German Daily" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="author" content="mohsen.najafi.najafi@gmail.com" />
+  <meta name="author" content="German Daily" />
   <title>German Daily</title>
   <link rel="manifest" href="manifest.json" />
   <link rel="icon" href="icon.svg" type="image/svg+xml" />
@@ -30,11 +33,22 @@
 /**
  * German Daily – استایل‌ها (CSS)
  * ------------------------------------------------------------
- * تماس با توسعه‌دهنده / Contact
- *   ایمیل  : mohsen.najafi.najafi@gmail.com
- *   تلفن   : 00989177662400
+ * German Daily – PWA
  * ------------------------------------------------------------
  */
+
+/* ===== حساب کاربری و نصب PWA ===== */
+.header-actions{display:flex;align-items:center;gap:7px}
+.header-action{border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.12);color:#fff;border-radius:10px;padding:7px 9px;font-size:.72rem;cursor:pointer;white-space:nowrap}
+.account-panel{position:fixed;inset:0;background:rgba(2,6,23,.78);z-index:200;display:flex;align-items:center;justify-content:center;padding:18px}
+.account-card{width:100%;max-width:420px;background:#1e293b;border:1px solid #475569;border-radius:18px;padding:20px;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.account-card h2{font-size:1.1rem;margin-bottom:8px}
+.account-card input{width:100%;margin:7px 0;background:#0f172a;border:1px solid #475569;color:#fff;padding:12px;border-radius:10px;font-size:.95rem}
+.account-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.account-note{font-size:.76rem;color:#94a3b8;line-height:1.7;margin-top:12px}
+.account-status{font-size:.82rem;min-height:22px;margin-top:9px;color:#7dd3fc}
+.sync-indicator{font-size:.7rem;color:#bfdbfe;margin-top:3px}
+@media(max-width:380px){.header-action{padding:6px;font-size:.66rem}.badge{display:none}}
 
 /* ===== متغیرهای رنگ و پایه ===== */
 :root{--bg:#0f172a;--card:#1e293b;--primary:#3b82f6;--accent:#38bdf8;--text:#f1f5f9;--muted:#94a3b8;--success:#22c55e;--danger:#ef4444;--radius:14px}
@@ -160,7 +174,11 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
   <div class="app">
     <header>
       <h1>🇩🇪 German Daily</h1>
-      <div class="badge" id="day-info">—</div>
+      <div class="header-actions">
+        <div class="badge" id="day-info">—</div>
+        <button class="header-action" id="pwa-install" type="button" hidden>＋ نصب</button>
+        <button class="header-action" id="account-open" type="button">ورود</button>
+      </div>
     </header>
     <nav id="main-nav">
       <button class="active" data-tab="daily">امروز</button>
@@ -277,18 +295,44 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
           <div style="margin-top:18px">
             <button class="btn" id="btn-reset" style="width:100%">شروع مجدد (روز ۱)</button>
           </div>
-          <p style="margin-top:14px;font-size:.78rem;color:var(--muted);text-align:center">نسخه هوشمند • داده و کلید API فقط روی دستگاه شماست</p>
-          <!-- اطلاعات تماس با توسعه‌دهنده -->
+          <p style="margin-top:14px;font-size:.78rem;color:var(--muted);text-align:center">نسخه هوشمند • تنظیمات شخصی روی دستگاه شما ذخیره می‌شود</p>
           <div class="about">
-            <div>تماس با توسعه‌دهنده</div>
-            <div>Mohsen Najafi</div>
-            <div>✉️ <a href="mailto:mohsen.najafi.najafi@gmail.com">mohsen.najafi.najafi@gmail.com</a></div>
-            <div>📞 <a href="tel:+989177662400">00989177662400</a></div>
+            <div>German Daily · یادگیری روزانه زبان آلمانی</div>
+            <div>نسخه آزمایشی PWA</div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <section id="account-panel" class="account-panel hidden" role="dialog" aria-modal="true" aria-labelledby="account-title">
+    <div class="account-card">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px">
+        <h2 id="account-title">حساب German Daily</h2>
+        <button id="account-close" class="close-btn" type="button" aria-label="بستن">×</button>
+      </div>
+      <p id="account-summary" class="hint">برای همگام‌سازی پیشرفت بین دستگاه‌ها وارد شوید. استفاده آفلاین و مهمان همچنان فعال است.</p>
+      <div id="account-form">
+        <input id="auth-email" type="email" autocomplete="email" placeholder="ایمیل" />
+        <input id="auth-password" type="password" autocomplete="current-password" placeholder="رمز عبور (حداقل ۶ کاراکتر)" />
+        <div class="account-actions">
+          <button class="btn" id="auth-signin" type="button">ورود با ایمیل</button>
+          <button class="btn secondary" id="auth-signup" type="button">ثبت‌نام</button>
+        </div>
+        <button class="btn secondary" id="auth-google" type="button" style="width:100%;margin-top:8px">ادامه با Google</button>
+        <button class="btn secondary" id="auth-reset" type="button" style="width:100%;margin-top:8px">بازیابی رمز عبور</button>
+      </div>
+      <div id="account-signed" class="hidden">
+        <div id="account-user" class="hint"></div>
+        <div class="account-actions">
+          <button class="btn" id="auth-sync" type="button">همگام‌سازی اکنون</button>
+          <button class="btn secondary" id="auth-signout" type="button">خروج</button>
+        </div>
+      </div>
+      <div id="auth-status" class="account-status" role="status" aria-live="polite"></div>
+      <p class="account-note">حساب کاربری برای پشتیبان‌گیری و همگام‌سازی ابری است. برنامه بدون ورود نیز روی همین دستگاه قابل استفاده می‌ماند. برای فعال‌سازی ورود، تنظیمات Supabase را در فایل <b>js/supabase-config.js</b> تکمیل کنید.</p>
+    </div>
+  </section>
 
   <div id="modal" class="modal hidden">
     <div class="modal-content">
@@ -312,11 +356,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
   window.GD = window.GD || {};
 
   // اطلاعات توسعه‌دهنده
-  GD.AUTHOR = {
-    name: "Mohsen Najafi",
-    email: "mohsen.najafi.najafi@gmail.com",
-    phone: "00989177662400"
-  };
+  GD.AUTHOR = { name: "German Daily" };
 
   // کلیدهای ذخیره‌سازی در localStorage
   GD.KEYS = {
@@ -1969,5 +2009,9 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
   GD.loadData();
 })();
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="./js/supabase-config.js"></script>
+  <script src="./js/auth-sync.js"></script>
+  <script src="./js/pwa-install.js"></script>
 </body>
 </html>
