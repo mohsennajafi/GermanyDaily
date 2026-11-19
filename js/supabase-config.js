@@ -5,6 +5,6 @@
  * هرگز service_role key یا کلید خصوصی را اینجا قرار ندهید.
  */
 window.GD_SUPABASE_CONFIG = {
-  url: "https://YOUR-PROJECT.supabase.co",
-  anonKey: "YOUR_SUPABASE_ANON_OR_PUBLISHABLE_KEY"
+  url: "https://jghyjuanvsnsoxkbiodu.supabase.co",
+  anonKey: "sb_publishable_o5EeohsA4Mdo4xzr-Xx7oA_3Fw8op4W"
 };
