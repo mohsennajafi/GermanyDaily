@@ -300,7 +300,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
             <div>German Daily · یادگیری روزانه زبان آلمانی</div>
             <div>نسخه PWA</div>
             <div style="margin-top:10px;font-weight:700;color:var(--text)">توسعه‌دهنده: Mohsen Najafi</div>
-            <div><a href="tel:+989177662400">تلفن: +989177662400</a></div>
+            <div><a href="tel:00989177662400">تلفن: 00989177662400</a></div>
             <div><a href="mailto:Mohsen.Najafi.Najafi@gmail.com">ایمیل: Mohsen.Najafi.Najafi@gmail.com</a></div>
           </div>
         </div>
@@ -364,8 +364,8 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
   // کلیدهای ذخیره‌سازی در localStorage
   GD.KEYS = {
     SETTINGS: "gd_v3",        // تنظیمات کاربر
-    WORDS:    "gd_words_v6",  // کش لیست واژگان (v6: ۱۶۴۶ واژه + مثال جمع)
-    GRAMMAR:  "gd_gram_v3",   // کش درس‌های گرامر
+    WORDS:    "gd_words_v7",  // کش لیست واژگان (v7: ۲۱۴۶ واژه + مثال جمع)
+    GRAMMAR:  "gd_gram_v4",   // کش درس‌های گرامر
     CUSTOM:   "gd_custom_v3"  // واژه‌های ساخته‌شده با هوش مصنوعی
   };
 
@@ -786,7 +786,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
     const S = GD.state, esc = GD.esc;
     const box = GD.$("grammar-list");
     let html = "";
-    for (const level of ["A1", "A2", "B1"]) {
+    for (const level of ["A1", "A2", "B1", "B2"]) {
       const items = S.grammar.filter(g => g.level === level);
       if (!items.length) continue;
       html += `<h3 style="margin:14px 0 6px;color:var(--accent)">${level}</h3>`;
@@ -864,7 +864,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
 
   // ساخت اطلاعات کامل یک واژه آلمانی (IPA، ترجمه، مثال، صرف فعل و ...)
   GD.generateWord = async function (germanWord) {
-    const system = `You are a German language expert for Persian speakers (B1 level). 
+    const system = `You are a German language expert for Persian speakers (B1-B2 level). 
   Return ONLY valid JSON with these exact keys (use empty string if not applicable):
   {
     "g": "German word with article if noun",

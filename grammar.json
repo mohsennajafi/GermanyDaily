@@ -606,6 +606,254 @@
   ]
  },
  {
+  "id": "A1-11",
+  "level": "A1",
+  "title": "Das deutsche Alphabet",
+  "title_fa": "الفبای آلمانی",
+  "explain": [
+   "الفبای آلمانی ۲۶ حرف لاتین دارد و چهار نویسه‌ی ویژه: ä، ö، ü و ß. نام حرف‌ها: A (آ)، B (بِه)، C (تسِه)، D (دِه)، E (اِ)، F (اِف)، G (گِه)، H (هَا)، I (ای)، J (یوت)، K (کَا)، L (اِل)، M (اِم)، N (اِن)، O (او)، P (پِه)، Q (کو)، R (اِر)، S (اِس)، T (تِه)، U (اوو)، V (فائو)، W (وِه)، X (ایکس)، Y (اوپسیلون)، Z (تسِت).",
+   "Umlaute: ä تقریباً «اِ» کشیده، ö صدایی بین «اُ» و «اِ» با لب‌های گرد، ü صدایی بین «او» و «ای» با لب‌های گرد. ß (اِس‌تسِت) مثل «س» کشیده تلفظ می‌شود: Straße، heißen.",
+   "ترکیب‌های مهم: sch = «ش» (Schule)؛ ch بعد از a/o/u/au = «خ» (Buch، acht) و بعد از e/i/ä/ö/ü صدایی نرم‌تر (ich، Milch)؛ ei = «آی» (nein)؛ ie = «ای» کشیده (Liebe)؛ eu و äu = «اُی» (neu، Häuser)؛ sp/st اول کلمه = «شپ/شت» (Sprache، Student)؛ v معمولاً «ف» (Vater)؛ w = «و» (Wasser)؛ z = «تس» (Zeit)؛ s قبل از مصوت = «ز» (Sonne).",
+   "برای هجی کردن: «Wie schreibt man das?» (این را چطور می‌نویسند؟). اسم‌ها در آلمانی همیشه با حرف بزرگ شروع می‌شوند: der Tisch، die Stadt."
+  ],
+  "examples": [
+   {
+    "de": "Wie schreibt man das? – B-E-R-L-I-N.",
+    "fa": "این را چطور می‌نویسند؟ – B-E-R-L-I-N."
+   },
+   {
+    "de": "Buchstabieren Sie bitte Ihren Namen.",
+    "fa": "لطفاً اسمتان را هجی کنید."
+   },
+   {
+    "de": "Das ß steht in „Straße“.",
+    "fa": "حرف ß در «Straße» آمده است."
+   },
+   {
+    "de": "Mein Name ist Müller: M, Ü, L, L, E, R.",
+    "fa": "اسم من مولر است: M، Ü، L، L، E، R."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Wie klingt „sch“ in „Schule“?",
+    "options": [
+     "مثل «ش»",
+     "مثل «س»",
+     "مثل «خ»"
+    ],
+    "answer": 1,
+    "explain": "sch همیشه «ش» تلفظ می‌شود."
+   },
+   {
+    "q": "Welcher Buchstabe ist ein Umlaut?",
+    "options": [
+     "ä",
+     "c",
+     "w"
+    ],
+    "answer": 1,
+    "explain": "Umlaute: ä، ö و ü."
+   },
+   {
+    "q": "„ei“ in „nein“ klingt wie …",
+    "options": [
+     "«آی»",
+     "«ای»",
+     "«اُی»"
+    ],
+    "answer": 1,
+    "explain": "ei = «آی»؛ ie = «ای» و eu = «اُی»."
+   }
+  ]
+ },
+ {
+  "id": "A1-12",
+  "level": "A1",
+  "title": "Zahlen und Zählen",
+  "title_fa": "شمارش اعداد",
+  "explain": [
+   "۰ تا ۱۲: null، eins، zwei، drei، vier، fünf، sechs، sieben، acht، neun، zehn، elf، zwölf. ۱۳ تا ۱۹ با پسوند -zehn ساخته می‌شود: dreizehn، vierzehn، fünfzehn، sechzehn (بدون s)، siebzehn (sieb-)، achtzehn، neunzehn.",
+   "دهگان‌ها: zwanzig (۲۰)، dreißig (۳۰)، vierzig (۴۰)، fünfzig (۵۰)، sechzig (۶۰)، siebzig (۷۰)، achtzig (۸۰)، neunzig (۹۰)؛ همچنین hundert (۱۰۰)، tausend (۱۰۰۰)، eine Million (۱۰۰۰۰۰۰).",
+   "اعداد مرکب: یکان + und + دهگان، و همه به‌هم چسبیده نوشته می‌شوند: ۲۱ = einundzwanzig، ۳۴ = vierunddreißig، ۹۹ = neunundneunzig. ۱۲۵ = hundertfünfundzwanzig؛ ۲۰۲۶ = zweitausendsechsundzwanzig. دقت کن: قبل از und می‌گوییم ein (نه eins).",
+   "اعداد ترتیبی: der erste، zweite، dritte، vierte، fünfte، sechste، siebte، achte … تا ۱۹ با -te و از ۲۰ به بعد با -ste: der zwanzigste، der einundzwanzigste. شماره‌ی تلفن را رقم‌به‌رقم می‌خوانند و قیمت را این‌طور: 3,50 € = drei Euro fünfzig."
+  ],
+  "examples": [
+   {
+    "de": "Ich bin vierundzwanzig Jahre alt.",
+    "fa": "من بیست و چهار ساله‌ام."
+   },
+   {
+    "de": "Das Buch kostet neunzehn Euro fünfzig.",
+    "fa": "این کتاب نوزده یورو و پنجاه سنت قیمت دارد."
+   },
+   {
+    "de": "Meine Telefonnummer ist null eins sieben sechs, zwei drei vier fünf.",
+    "fa": "شماره‌ی تلفن من ۰۱۷۶ ۲۳۴۵ است."
+   },
+   {
+    "de": "Wir wohnen im dritten Stock.",
+    "fa": "ما در طبقه‌ی سوم زندگی می‌کنیم."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "21 = ___",
+    "options": [
+     "einundzwanzig",
+     "zwanzigeins",
+     "einzwanzig"
+    ],
+    "answer": 1,
+    "explain": "اول یکان (ein) بعد und و بعد دهگان: einundzwanzig."
+   },
+   {
+    "q": "30 = ___",
+    "options": [
+     "dreizehn",
+     "dreißig",
+     "dreizig"
+    ],
+    "answer": 2,
+    "explain": "۳۰ = dreißig (با ß)؛ dreizehn یعنی ۱۳."
+   },
+   {
+    "q": "16 = ___",
+    "options": [
+     "sechzehn",
+     "sechszehn",
+     "sechtzehn"
+    ],
+    "answer": 1,
+    "explain": "در sechzehn حرف s حذف می‌شود."
+   }
+  ]
+ },
+ {
+  "id": "A1-13",
+  "level": "A1",
+  "title": "Uhrzeit",
+  "title_fa": "ساعت و زمان",
+  "explain": [
+   "پرسش: «Wie spät ist es?» یا «Wie viel Uhr ist es?»؛ و برای زمان رویداد: «Um wie viel Uhr …?». پاسخ: «Es ist drei Uhr.» و «Um acht Uhr.».",
+   "شکل رسمی (۲۴ ساعته): ساعت و دقیقه را مستقیم می‌گوییم: 14:35 = vierzehn Uhr fünfunddreißig؛ 08:05 = acht Uhr fünf؛ 00:00 = null Uhr. این شکل در اعلام قطار، رادیو و کار اداری استفاده می‌شود.",
+   "شکل روزمره (۱۲ ساعته): 3:10 = zehn nach drei؛ 3:15 = Viertel nach drei؛ 3:30 = halb vier (نیم ساعت مانده به چهار)؛ 3:45 = Viertel vor vier؛ 3:50 = zehn vor vier. دقت: halb همیشه به ساعت بعدی اشاره می‌کند، پس halb acht یعنی ۷:۳۰.",
+   "حروف اضافه‌ی زمان: um (در ساعت): um acht Uhr؛ von … bis …: von neun bis fünf؛ gegen (حدود): gegen zehn؛ ab: ab sieben Uhr. بخش‌های روز: der Morgen، der Vormittag، der Mittag، der Nachmittag، der Abend، die Nacht؛ am Morgen/am Abend ولی in der Nacht؛ و قیدها: morgens، mittags، abends، nachts."
+  ],
+  "examples": [
+   {
+    "de": "Es ist halb acht.",
+    "fa": "ساعت هفت و نیم است."
+   },
+   {
+    "de": "Der Zug fährt um sechzehn Uhr zweiundvierzig ab.",
+    "fa": "قطار ساعت ۱۶:۴۲ حرکت می‌کند."
+   },
+   {
+    "de": "Der Unterricht beginnt um Viertel nach neun.",
+    "fa": "کلاس ساعت نه و ربع شروع می‌شود."
+   },
+   {
+    "de": "Ich arbeite von acht bis siebzehn Uhr.",
+    "fa": "من از ساعت هشت تا هفده کار می‌کنم."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "3:45 = ___ vier.",
+    "options": [
+     "Viertel vor",
+     "Viertel nach",
+     "halb"
+    ],
+    "answer": 1,
+    "explain": "Viertel vor vier یعنی ربع به چهار (۳:۴۵)."
+   },
+   {
+    "q": "Wie spät ist „halb sechs“?",
+    "options": [
+     "5:30",
+     "6:30",
+     "6:05"
+    ],
+    "answer": 1,
+    "explain": "halb sechs یعنی نیم ساعت مانده به شش: ۵:۳۰."
+   },
+   {
+    "q": "___ wie viel Uhr beginnt der Film?",
+    "options": [
+     "Um",
+     "Am",
+     "Im"
+    ],
+    "answer": 1,
+    "explain": "برای ساعت دقیق از um استفاده می‌کنیم."
+   }
+  ]
+ },
+ {
+  "id": "A1-14",
+  "level": "A1",
+  "title": "Datum, Wochentage und Monate",
+  "title_fa": "تاریخ، روزهای هفته و ماه‌ها",
+  "explain": [
+   "روزهای هفته (همه der): Montag، Dienstag، Mittwoch، Donnerstag، Freitag، Samstag (در شمال Sonnabend)، Sonntag. «am Montag» = روز دوشنبه؛ «montags» = هر دوشنبه.",
+   "ماه‌ها (همه der): Januar، Februar، März، April، Mai، Juni، Juli، August، September، Oktober، November، Dezember؛ «im Mai». فصل‌ها: der Frühling، der Sommer، der Herbst، der Winter؛ «im Sommer».",
+   "تاریخ: «Der Wievielte ist heute?» / «Welches Datum ist heute?». پاسخ: «Heute ist der 20. November 2026.» (der zwanzigste November). با حرف اضافه: «am 20. November» = am zwanzigsten November؛ «am 1.» = am ersten، «am 3.» = am dritten، «am 7.» = am siebten. ترتیب نوشتن: روز.ماه.سال (20.11.2026) و نقطه بعد از عدد روز یعنی ترتیبی است.",
+   "قیدهای زمان: vorgestern (پریروز)، gestern (دیروز)، heute (امروز)، morgen (فردا)، übermorgen (پس‌فردا)؛ nächste Woche (هفته‌ی بعد)، letzten Monat (ماه گذشته). سال‌ها: 2026 = zweitausendsechsundzwanzig؛ 1995 = neunzehnhundertfünfundneunzig."
+  ],
+  "examples": [
+   {
+    "de": "Heute ist Freitag, der zwanzigste November.",
+    "fa": "امروز جمعه، بیستم نوامبر است."
+   },
+   {
+    "de": "Mein Geburtstag ist am dritten März.",
+    "fa": "تولد من سوم مارس است."
+   },
+   {
+    "de": "Im Sommer fahren wir ans Meer.",
+    "fa": "تابستان به کنار دریا می‌رویم."
+   },
+   {
+    "de": "Wir haben montags und mittwochs Deutschkurs.",
+    "fa": "ما دوشنبه‌ها و چهارشنبه‌ها کلاس آلمانی داریم."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Ich habe ___ 5. Mai Geburtstag.",
+    "options": [
+     "am",
+     "im",
+     "um"
+    ],
+    "answer": 1,
+    "explain": "برای تاریخ دقیق از am استفاده می‌کنیم."
+   },
+   {
+    "q": "___ Januar ist es kalt.",
+    "options": [
+     "Im",
+     "Am",
+     "Um"
+    ],
+    "answer": 1,
+    "explain": "برای ماه‌ها و فصل‌ها از im استفاده می‌شود."
+   },
+   {
+    "q": "Welcher Tag kommt nach Mittwoch?",
+    "options": [
+     "Donnerstag",
+     "Dienstag",
+     "Freitag"
+    ],
+    "answer": 1,
+    "explain": "بعد از Mittwoch، Donnerstag می‌آید."
+   }
+  ]
+ },
+ {
   "id": "A2-01",
   "level": "A2",
   "title": "Dativ",
@@ -1985,6 +2233,982 @@
     ],
     "answer": 1,
     "explain": "ترتیب: زمان، چگونگی، مکان."
+   }
+  ]
+ },
+ {
+  "id": "B2-01",
+  "level": "B2",
+  "title": "Partizipialattribute (Partizip I und II)",
+  "title_fa": "صفت فعلی (Partizip I و II)",
+  "explain": [
+   "Partizip I = مصدر + d (lachend، schlafend) و معنای فعال و هم‌زمان دارد: das schlafende Kind (کودکی که می‌خوابد). Partizip II معنای تمام‌شده یا مجهول دارد: das gelöste Problem (مشکلی که حل شده).",
+   "این صفت‌های فعلی مثل هر صفت دیگری پایانه‌ی صرفی می‌گیرند: die gestiegenen Preise، ein lachendes Gesicht.",
+   "گسترش: «der seit Jahren ungelöste Konflikt» = «der Konflikt, der seit Jahren ungelöst ist». با zu + Partizip I مفهوم ضرورت یا امکان بیان می‌شود: die zu lösende Aufgabe (کاری که باید حل شود)."
+  ],
+  "examples": [
+   {
+    "de": "Das weinende Kind sucht seine Mutter.",
+    "fa": "بچه‌ای که گریه می‌کند دنبال مادرش می‌گردد."
+   },
+   {
+    "de": "Die gestiegenen Preise belasten viele Familien.",
+    "fa": "قیمت‌های بالا رفته خانواده‌های زیادی را تحت فشار می‌گذارد."
+   },
+   {
+    "de": "Die zu lösende Aufgabe ist schwierig.",
+    "fa": "کاری که باید حل شود دشوار است."
+   },
+   {
+    "de": "Der von der Polizei gesuchte Mann wurde gefasst.",
+    "fa": "مردی که پلیس دنبالش بود دستگیر شد."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Das ___ Kind schläft. (schlafen)",
+    "options": [
+     "schlafende",
+     "geschlafene",
+     "schlafte"
+    ],
+    "answer": 1,
+    "explain": "Partizip I = مصدر + d + پایانه‌ی صفت."
+   },
+   {
+    "q": "Der ___ Kuchen schmeckt gut. (backen)",
+    "options": [
+     "gebackene",
+     "backende",
+     "gebacken"
+    ],
+    "answer": 1,
+    "explain": "معنای «پخته‌شده» = Partizip II + پایانه."
+   },
+   {
+    "q": "Die ___ Aufgabe (کاری که باید حل شود)",
+    "options": [
+     "zu lösende",
+     "lösende",
+     "gelöste"
+    ],
+    "answer": 1,
+    "explain": "zu + Partizip I = ضرورت."
+   }
+  ]
+ },
+ {
+  "id": "B2-02",
+  "level": "B2",
+  "title": "Passiv mit Modalverben und Zustandspassiv",
+  "title_fa": "مجهول با افعال کمکی و مجهول حالت",
+  "explain": [
+   "مجهول با فعل کمکی: Modalverb + Partizip II + werden: «Der Antrag muss bis Montag abgegeben werden.» در گذشته: «Der Antrag musste abgegeben werden.»",
+   "Vorgangspassiv (werden + Partizip II) خود فرایند را نشان می‌دهد: «Die Tür wird geschlossen.» (دارد بسته می‌شود). Zustandspassiv (sein + Partizip II) نتیجه و حالت را نشان می‌دهد: «Die Tür ist geschlossen.» (بسته است).",
+   "عامل با von (شخص) و durch (وسیله یا علت) می‌آید. مجهول بی‌فاعل: «Hier wird gearbeitet.» و «Es wird viel getanzt.»"
+  ],
+  "examples": [
+   {
+    "de": "Das Formular muss ausgefüllt werden.",
+    "fa": "فرم باید پر شود."
+   },
+   {
+    "de": "Das Geschäft ist sonntags geschlossen.",
+    "fa": "مغازه یکشنبه‌ها بسته است."
+   },
+   {
+    "de": "In der Kantine wird mittags warm gegessen.",
+    "fa": "در نهارخوری ظهرها غذای گرم خورده می‌شود."
+   },
+   {
+    "de": "Das Haus wurde durch den Sturm beschädigt.",
+    "fa": "خانه بر اثر طوفان آسیب دید."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Der Vertrag muss noch ___.",
+    "options": [
+     "unterschrieben werden",
+     "unterschrieben sein",
+     "unterschreiben worden"
+    ],
+    "answer": 1,
+    "explain": "Modalverb + Partizip II + werden."
+   },
+   {
+    "q": "Das Fenster ___ jetzt geschlossen. (حالت)",
+    "options": [
+     "ist",
+     "wird",
+     "wurde"
+    ],
+    "answer": 1,
+    "explain": "Zustandspassiv با sein ساخته می‌شود."
+   },
+   {
+    "q": "Hier ___ nicht geraucht.",
+    "options": [
+     "wird",
+     "ist",
+     "hat"
+    ],
+    "answer": 1,
+    "explain": "مجهول بی‌فاعل با werden."
+   }
+  ]
+ },
+ {
+  "id": "B2-03",
+  "level": "B2",
+  "title": "Konjunktiv I und indirekte Rede",
+  "title_fa": "وجه التزامی I و گفتار غیرمستقیم",
+  "explain": [
+   "Konjunktiv I = ریشه‌ی فعل + e، est، e، en، et، en: er gehe، sie kaufe، er habe. فعل sein: ich sei، du seist، er sei، wir seien، ihr seiet، sie seien. گذشته: er habe gekauft / er sei gegangen؛ آینده: er werde kommen.",
+   "وقتی شکل Konjunktiv I با Indikativ یکی باشد (مثلاً wir haben، sie haben)، به‌جایش Konjunktiv II می‌آید: «Sie sagten, sie hätten keine Zeit.»",
+   "کاربرد: گزارش گفته‌ی دیگران در خبر و متن رسمی. «dass» می‌تواند حذف شود و ترتیب جمله عادی می‌ماند: «Der Minister sagte, er kenne die Entscheidung nicht.»"
+  ],
+  "examples": [
+   {
+    "de": "Der Chef sagt, er sei krank.",
+    "fa": "رئیس می‌گوید بیمار است."
+   },
+   {
+    "de": "Sie sagte, sie habe das Buch gelesen.",
+    "fa": "او گفت که آن کتاب را خوانده است."
+   },
+   {
+    "de": "Die Zeitung berichtet, der Minister werde zurücktreten.",
+    "fa": "روزنامه گزارش می‌دهد که وزیر استعفا خواهد داد."
+   },
+   {
+    "de": "Die Kinder erzählten, sie hätten Hunger.",
+    "fa": "بچه‌ها گفتند که گرسنه‌اند."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Er sagt, er ___ müde. (sein, Konjunktiv I)",
+    "options": [
+     "sei",
+     "ist",
+     "wäre"
+    ],
+    "answer": 1,
+    "explain": "er sei = Konjunktiv I از sein."
+   },
+   {
+    "q": "Sie meint, sie ___ keine Zeit. (haben, Konjunktiv I)",
+    "options": [
+     "habe",
+     "hat",
+     "hätte"
+    ],
+    "answer": 1,
+    "explain": "sie habe = Konjunktiv I."
+   },
+   {
+    "q": "Die Kollegen sagen, sie ___ Hunger. (haben)",
+    "options": [
+     "hätten",
+     "haben",
+     "habe"
+    ],
+    "answer": 1,
+    "explain": "sie haben با Indikativ یکی است؛ پس Konjunktiv II می‌آید."
+   }
+  ]
+ },
+ {
+  "id": "B2-04",
+  "level": "B2",
+  "title": "Konjunktiv II der Vergangenheit",
+  "title_fa": "وجه التزامی II در گذشته",
+  "explain": [
+   "ساختار: hätte یا wäre + Partizip II. «Wenn ich Zeit gehabt hätte, wäre ich gekommen.» (اگر وقت داشتم، می‌آمدم؛ ولی نداشتم و نیامدم).",
+   "با فعل کمکی: hätte + مصدر + Modalverb (مصدر): «Ich hätte kommen können.»، «Du hättest anrufen sollen.»",
+   "آرزو و افسوس: «Hätte ich doch mehr gelernt!»، «Wäre ich nur früher aufgestanden!»؛ سرزنش: «Du hättest vorsichtiger sein müssen.»"
+  ],
+  "examples": [
+   {
+    "de": "Wenn ich mehr gelernt hätte, hätte ich die Prüfung bestanden.",
+    "fa": "اگر بیشتر درس خوانده بودم، امتحان را قبول شده بودم."
+   },
+   {
+    "de": "Wärst du doch früher gekommen!",
+    "fa": "کاش زودتر آمده بودی!"
+   },
+   {
+    "de": "Du hättest mich anrufen sollen.",
+    "fa": "باید به من زنگ می‌زدی (ولی نزدی)."
+   },
+   {
+    "de": "An deiner Stelle wäre ich zu Hause geblieben.",
+    "fa": "جای تو بودم در خانه مانده بودم."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Wenn ich Geld gehabt ___, wäre ich gereist.",
+    "options": [
+     "hätte",
+     "habe",
+     "hatte"
+    ],
+    "answer": 1,
+    "explain": "hätte + Partizip II."
+   },
+   {
+    "q": "Wenn er früher aufgestanden ___, hätte er den Zug erreicht.",
+    "options": [
+     "wäre",
+     "hätte",
+     "ist"
+    ],
+    "answer": 1,
+    "explain": "aufstehen با sein: wäre aufgestanden."
+   },
+   {
+    "q": "Du ___ mir helfen können.",
+    "options": [
+     "hättest",
+     "wärest",
+     "hast"
+    ],
+    "answer": 1,
+    "explain": "hättest + مصدر + können."
+   }
+  ]
+ },
+ {
+  "id": "B2-05",
+  "level": "B2",
+  "title": "Nominalisierung und Nominalstil",
+  "title_fa": "اسم‌سازی و سبک اسمی",
+  "explain": [
+   "فعل ← اسم: مصدر به‌عنوان اسم خنثی (das Lesen، das Rauchen)؛ ریشه + -ung (die Entscheidung، die Wohnung، همه مؤنث)؛ بدون پسوند (der Beginn، der Gang، die Reise)؛ و -ion برای واژه‌های وام‌گرفته.",
+   "در زبان رسمی به‌جای جمله‌ی وابسته از اسم + حرف اضافه استفاده می‌شود: «Wenn man das Gerät verwendet …» ← «Bei der Verwendung des Geräts …».",
+   "تبدیل‌های رایج: weil / da ← wegen + Genitiv؛ obwohl ← trotz + Genitiv؛ nachdem ← nach + Dativ؛ bevor ← vor + Dativ؛ während ← während + Genitiv؛ damit / um … zu ← zur / zum + اسم."
+  ],
+  "examples": [
+   {
+    "de": "Das Rauchen ist hier verboten.",
+    "fa": "سیگار کشیدن اینجا ممنوع است."
+   },
+   {
+    "de": "Die Entscheidung fiel ihm schwer.",
+    "fa": "تصمیم‌گیری برایش سخت بود."
+   },
+   {
+    "de": "Nach der Ankunft des Zuges stiegen alle aus.",
+    "fa": "پس از رسیدن قطار همه پیاده شدند."
+   },
+   {
+    "de": "Wegen der Verspätung des Flugzeugs verpassten wir den Anschluss.",
+    "fa": "به‌خاطر تأخیر هواپیما به پرواز بعدی نرسیدیم."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "entscheiden → die ___",
+    "options": [
+     "Entscheidung",
+     "Entscheiden",
+     "Entscheid"
+    ],
+    "answer": 1,
+    "explain": "پسوند -ung اسم مؤنث می‌سازد."
+   },
+   {
+    "q": "Weil es regnet → ___ des Regens",
+    "options": [
+     "Wegen",
+     "Obwohl",
+     "Damit"
+    ],
+    "answer": 1,
+    "explain": "weil ← wegen + Genitiv."
+   },
+   {
+    "q": "lesen (به‌عنوان اسم)",
+    "options": [
+     "das Lesen",
+     "der Lesen",
+     "die Lesen"
+    ],
+    "answer": 1,
+    "explain": "مصدر اسم‌شده همیشه خنثی است."
+   }
+  ]
+ },
+ {
+  "id": "B2-06",
+  "level": "B2",
+  "title": "Funktionsverbgefüge",
+  "title_fa": "ترکیب‌های فعلی ثابت (اسم + فعل)",
+  "explain": [
+   "اسم + فعل که روی‌هم معنای یک فعل ساده را می‌دهند: eine Entscheidung treffen (= entscheiden)، Rücksicht nehmen auf (= berücksichtigen)، einen Antrag stellen (= beantragen)، Hilfe leisten (= helfen).",
+   "فعل در این ترکیب‌ها معنای اصلی خود را از دست می‌دهد (treffen، nehmen، stellen، bringen، kommen، geben، ziehen). این ساختارها در زبان رسمی و اداری بسیار رایج‌اند.",
+   "برخی ترکیب‌ها جنبه‌ی زمانی دارند: in Kraft treten (اجرایی شدن)، zur Anwendung kommen (به‌کار گرفته شدن)، zur Anwendung bringen (به‌کار گرفتن). حرف اضافه و حالت اسم ثابت است: zur Verfügung stellen، in Anspruch nehmen، in Betracht ziehen."
+  ],
+  "examples": [
+   {
+    "de": "Wir müssen bald eine Entscheidung treffen.",
+    "fa": "باید به‌زودی تصمیم بگیریم."
+   },
+   {
+    "de": "Das Gesetz tritt nächstes Jahr in Kraft.",
+    "fa": "این قانون سال آینده اجرایی می‌شود."
+   },
+   {
+    "de": "Er nahm den Kredit in Anspruch.",
+    "fa": "او از وام استفاده کرد."
+   },
+   {
+    "de": "Die Stadt stellt kostenlose Parkplätze zur Verfügung.",
+    "fa": "شهر پارکینگ رایگان در اختیار می‌گذارد."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "eine Entscheidung ___",
+    "options": [
+     "treffen",
+     "machen",
+     "geben"
+    ],
+    "answer": 1,
+    "explain": "ترکیب ثابت: eine Entscheidung treffen."
+   },
+   {
+    "q": "in Kraft ___",
+    "options": [
+     "treten",
+     "gehen",
+     "fallen"
+    ],
+    "answer": 1,
+    "explain": "ترکیب ثابت: in Kraft treten."
+   },
+   {
+    "q": "zur Verfügung ___",
+    "options": [
+     "stellen",
+     "setzen",
+     "legen"
+    ],
+    "answer": 1,
+    "explain": "ترکیب ثابت: zur Verfügung stellen."
+   }
+  ]
+ },
+ {
+  "id": "B2-07",
+  "level": "B2",
+  "title": "Konnektoren: trotzdem, dennoch, folglich, indem, sodass, zumal",
+  "title_fa": "حروف ربط پیشرفته",
+  "explain": [
+   "قیدهای ربط (trotzdem، dennoch، deshalb، folglich، außerdem، allerdings، dagegen، sonst، andernfalls) دو جمله‌ی مستقل را وصل می‌کنند و فعل بلافاصله بعد از آن‌ها می‌آید (جای دوم): «Es regnete. Trotzdem gingen wir spazieren.»",
+   "حروف ربط وابسته‌ساز فعل را به آخر می‌برند: indem (با این روش که)، sodass (به‌طوری که)، zumal (به‌ویژه چون)، falls، sofern، solange، sobald، seitdem.",
+   "nämlich (چون / در واقع) وسط جمله می‌آید و دلیل جمله‌ی قبل را می‌دهد: «Er ist müde. Er hat nämlich schlecht geschlafen.» ساختار zwar … aber: «Sie ist zwar jung, aber sehr erfahren.»"
+  ],
+  "examples": [
+   {
+    "de": "Er war krank, trotzdem ging er zur Arbeit.",
+    "fa": "او بیمار بود، با این حال سر کار رفت."
+   },
+   {
+    "de": "Man lernt Sprachen, indem man viel spricht.",
+    "fa": "زبان را با زیاد صحبت کردن یاد می‌گیرند."
+   },
+   {
+    "de": "Das Wetter war schlecht, sodass wir zu Hause blieben.",
+    "fa": "هوا بد بود، به‌طوری که در خانه ماندیم."
+   },
+   {
+    "de": "Ich komme gern, zumal ich heute Zeit habe.",
+    "fa": "با کمال میل می‌آیم، به‌ویژه که امروز وقت دارم."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Es regnet. ___ gehen wir spazieren.",
+    "options": [
+     "Trotzdem",
+     "Weil",
+     "Obwohl"
+    ],
+    "answer": 1,
+    "explain": "trotzdem قید است و فعل بلافاصله بعد از آن می‌آید."
+   },
+   {
+    "q": "Er lernt viel, ___ er gute Noten bekommt.",
+    "options": [
+     "sodass",
+     "trotzdem",
+     "deshalb"
+    ],
+    "answer": 1,
+    "explain": "sodass جمله‌ی وابسته می‌سازد و فعل آخر می‌رود."
+   },
+   {
+    "q": "Man spart Geld, ___ man weniger Auto fährt.",
+    "options": [
+     "indem",
+     "trotzdem",
+     "allerdings"
+    ],
+    "answer": 1,
+    "explain": "indem = با این روش که."
+   }
+  ]
+ },
+ {
+  "id": "B2-08",
+  "level": "B2",
+  "title": "Zweiteilige Konjunktionen",
+  "title_fa": "حروف ربط دوتایی",
+  "explain": [
+   "entweder … oder (یا … یا)، sowohl … als auch (هم … هم)، weder … noch (نه … نه)، nicht nur … sondern auch (نه‌تنها … بلکه)، zwar … aber (درست است … اما)، einerseits … andererseits (از یک طرف … از طرف دیگر).",
+   "je + تفضیلی … desto/umso + تفضیلی: در جمله‌ی je فعل آخر می‌رود و در جمله‌ی desto فعل جای دوم می‌ماند: «Je mehr du übst, desto besser sprichst du.»",
+   "weder … noch با فعل مثبت می‌آید و نفی دیگری نمی‌خواهد: «Ich habe weder Zeit noch Lust.» در nicht … sondern بعد از sondern جزء جایگزین می‌آید: «Das ist nicht rot, sondern orange.»"
+  ],
+  "examples": [
+   {
+    "de": "Sie spricht sowohl Deutsch als auch Englisch.",
+    "fa": "او هم آلمانی و هم انگلیسی صحبت می‌کند."
+   },
+   {
+    "de": "Ich habe weder Zeit noch Lust.",
+    "fa": "نه وقت دارم نه حوصله."
+   },
+   {
+    "de": "Je länger ich warte, desto nervöser werde ich.",
+    "fa": "هرچه بیشتر صبر می‌کنم، عصبی‌تر می‌شوم."
+   },
+   {
+    "de": "Er ist nicht nur klug, sondern auch freundlich.",
+    "fa": "او نه‌تنها باهوش بلکه مهربان هم هست."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Ich trinke ___ Kaffee ___ Tee.",
+    "options": [
+     "weder … noch",
+     "entweder … oder",
+     "je … desto"
+    ],
+    "answer": 1,
+    "explain": "نه قهوه می‌نوشم نه چای: weder … noch."
+   },
+   {
+    "q": "___ mehr du lernst, desto besser wirst du.",
+    "options": [
+     "Je",
+     "Umso",
+     "Wie"
+    ],
+    "answer": 1,
+    "explain": "je + تفضیلی … desto + تفضیلی."
+   },
+   {
+    "q": "Er ist nicht nur Arzt, ___ auch Autor.",
+    "options": [
+     "sondern",
+     "aber",
+     "oder"
+    ],
+    "answer": 1,
+    "explain": "nicht nur … sondern auch."
+   }
+  ]
+ },
+ {
+  "id": "B2-09",
+  "level": "B2",
+  "title": "Erweiterte Relativsätze: Präposition, Genitiv, was, wo, wer",
+  "title_fa": "جمله‌ی موصولی پیشرفته",
+  "explain": [
+   "ضمیر موصولی با حرف اضافه: «Der Mann, mit dem ich arbeite» / «Die Stadt, in der ich wohne» / «Das Thema, über das wir sprachen». جنسیت و تعداد از اسم قبل و حالت از حرف اضافه می‌آید.",
+   "حالت ملکی: dessen (مذکر و خنثی) و deren (مؤنث و جمع): «Das ist die Frau, deren Auto gestohlen wurde.» بعد از dessen و deren اسم بدون artikel می‌آید.",
+   "was بعد از alles، nichts، etwas، das Beste یا بعد از کل جمله می‌آید: «Alles, was du sagst, stimmt.» wo برای مکان و زمان: «Die Stadt, wo ich geboren bin.» wer برای کلی‌گویی: «Wer rastet, der rostet.»"
+  ],
+  "examples": [
+   {
+    "de": "Der Mann, mit dem ich spreche, ist mein Chef.",
+    "fa": "مردی که با او صحبت می‌کنم رئیس من است."
+   },
+   {
+    "de": "Das ist die Kollegin, deren Idee das Projekt gerettet hat.",
+    "fa": "این همکاری است که ایده‌اش پروژه را نجات داد."
+   },
+   {
+    "de": "Alles, was er erzählt hat, war interessant.",
+    "fa": "هرچه تعریف کرد جالب بود."
+   },
+   {
+    "de": "Wer Deutsch lernen will, braucht Geduld.",
+    "fa": "هرکس بخواهد آلمانی یاد بگیرد صبر لازم دارد."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Das Haus, ___ ich wohne, ist alt.",
+    "options": [
+     "in dem",
+     "dem in",
+     "das in"
+    ],
+    "answer": 1,
+    "explain": "حرف اضافه قبل از ضمیر موصولی می‌آید: in dem."
+   },
+   {
+    "q": "Alles, ___ du sagst, stimmt.",
+    "options": [
+     "was",
+     "das",
+     "wer"
+    ],
+    "answer": 1,
+    "explain": "بعد از alles از was استفاده می‌کنیم."
+   },
+   {
+    "q": "Die Frau, ___ Tasche gestohlen wurde, rief die Polizei.",
+    "options": [
+     "deren",
+     "der",
+     "dessen"
+    ],
+    "answer": 1,
+    "explain": "ملکی مؤنث: deren."
+   }
+  ]
+ },
+ {
+  "id": "B2-10",
+  "level": "B2",
+  "title": "Präpositionen mit Genitiv",
+  "title_fa": "حروف اضافه‌ی همراه Genitiv",
+  "explain": [
+   "مهم‌ترین‌ها: wegen، trotz، während، aufgrund، innerhalb، außerhalb، anstelle / statt، anhand، mithilfe، infolge، angesichts، bezüglich. همه با Genitiv می‌آیند: «aufgrund des Wetters».",
+   "در گفتار wegen و trotz گاهی با Dativ هم شنیده می‌شود (wegen dem Wetter)، اما در نوشتار و آزمون Genitiv درست است. اسم‌های مذکر و خنثی در Genitiv پایانه‌ی -(e)s می‌گیرند.",
+   "مثال‌های مکان و زمان: innerhalb einer Woche (ظرف یک هفته)، außerhalb der Stadt (بیرون از شهر)، anhand der Daten (با استناد به داده‌ها)، mithilfe eines Wörterbuchs (با کمک یک فرهنگ لغت)."
+  ],
+  "examples": [
+   {
+    "de": "Aufgrund des schlechten Wetters wurde das Konzert abgesagt.",
+    "fa": "به‌دلیل هوای بد کنسرت لغو شد."
+   },
+   {
+    "de": "Innerhalb einer Woche bekommen Sie eine Antwort.",
+    "fa": "ظرف یک هفته پاسخ می‌گیرید."
+   },
+   {
+    "de": "Trotz des Verbots rauchen viele hier.",
+    "fa": "با وجود ممنوعیت، بسیاری اینجا سیگار می‌کشند."
+   },
+   {
+    "de": "Anhand der Fotos erkannte man den Täter.",
+    "fa": "با استناد به عکس‌ها مجرم شناسایی شد."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Wegen ___ Regens bleiben wir hier.",
+    "options": [
+     "des",
+     "dem",
+     "den"
+    ],
+    "answer": 1,
+    "explain": "wegen + Genitiv: des Regens."
+   },
+   {
+    "q": "___ der Stadt gibt es einen See.",
+    "options": [
+     "Außerhalb",
+     "Außen",
+     "Draußen"
+    ],
+    "answer": 1,
+    "explain": "außerhalb + Genitiv = بیرون از."
+   },
+   {
+    "q": "Trotz ___ Krankheit arbeitet er.",
+    "options": [
+     "seiner",
+     "seine",
+     "seinem"
+    ],
+    "answer": 1,
+    "explain": "Krankheit مؤنث است؛ Genitiv مؤنث: seiner."
+   }
+  ]
+ },
+ {
+  "id": "B2-11",
+  "level": "B2",
+  "title": "Modalverben mit subjektiver Bedeutung",
+  "title_fa": "افعال کمکی با معنای ذهنی (حدس و گزارش)",
+  "explain": [
+   "müssen = حتماً (نتیجه‌گیری قطعی): «Er muss krank sein.»؛ dürfte = احتمالاً: «Sie dürfte zu Hause sein.»؛ können = ممکن است: «Das kann stimmen.»؛ nicht können = غیرممکن است: «Er kann nicht zu Hause sein.»",
+   "sollen = گفته می‌شود / شنیده‌ام: «Er soll sehr reich sein.»؛ wollen = ادعای خود شخص (که معمولاً مشکوک است): «Er will das nicht gewusst haben.»",
+   "برای گذشته: Modalverb (حال) + Partizip II + haben/sein: «Er muss das gewusst haben.»، «Sie soll in Paris gewesen sein.»"
+  ],
+  "examples": [
+   {
+    "de": "Er muss krank sein, denn er fehlt seit Montag.",
+    "fa": "حتماً بیمار است، چون از دوشنبه نیامده."
+   },
+   {
+    "de": "Der Zug dürfte gleich ankommen.",
+    "fa": "قطار احتمالاً هر لحظه می‌رسد."
+   },
+   {
+    "de": "Die Politikerin soll viel Geld erhalten haben.",
+    "fa": "گفته می‌شود سیاستمدار پول زیادی دریافت کرده است."
+   },
+   {
+    "de": "Er will den Unfall nicht gesehen haben.",
+    "fa": "او ادعا می‌کند که تصادف را ندیده است."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Er ___ sehr reich sein. (می‌گویند)",
+    "options": [
+     "soll",
+     "muss",
+     "will"
+    ],
+    "answer": 1,
+    "explain": "sollen = گزارش شنیده‌شده."
+   },
+   {
+    "q": "Das Licht brennt. Er ___ zu Hause sein. (قطعاً)",
+    "options": [
+     "muss",
+     "soll",
+     "will"
+    ],
+    "answer": 1,
+    "explain": "müssen = نتیجه‌گیری قطعی."
+   },
+   {
+    "q": "Er ___ nichts gewusst haben. (ادعای خودش)",
+    "options": [
+     "will",
+     "soll",
+     "muss"
+    ],
+    "answer": 1,
+    "explain": "wollen = ادعای خود فاعل."
+   }
+  ]
+ },
+ {
+  "id": "B2-12",
+  "level": "B2",
+  "title": "Futur II und Vermutung",
+  "title_fa": "آینده‌ی کامل (Futur II) و حدس",
+  "explain": [
+   "ساختار: werden + Partizip II + haben / sein: «Er wird das Buch gelesen haben.» فعل werden در جای دوم و بخش دوم در آخر جمله می‌آید.",
+   "دو کاربرد دارد: ۱) حدس درباره‌ی گذشته: «Sie wird schon angekommen sein.» (احتمالاً رسیده است)؛ ۲) عملی که تا زمان مشخصی در آینده تمام می‌شود: «Bis morgen werde ich das Projekt beendet haben.»",
+   "قیدهای حدس مثل wohl، vermutlich و wahrscheinlich این معنا را تقویت می‌کنند. در جمله‌ی وابسته: «… dass er gekommen sein wird.»"
+  ],
+  "examples": [
+   {
+    "de": "Sie wird schon nach Hause gegangen sein.",
+    "fa": "او احتمالاً از قبل به خانه رفته است."
+   },
+   {
+    "de": "Bis Freitag werde ich den Bericht geschrieben haben.",
+    "fa": "تا جمعه گزارش را نوشته‌ام."
+   },
+   {
+    "de": "In zehn Jahren wird sich viel verändert haben.",
+    "fa": "ده سال دیگر خیلی چیزها تغییر کرده است."
+   },
+   {
+    "de": "Er wird wohl den Bus verpasst haben.",
+    "fa": "احتمالاً او اتوبوس را از دست داده است."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Er ___ wohl krank gewesen sein.",
+    "options": [
+     "wird",
+     "hat",
+     "ist"
+    ],
+    "answer": 1,
+    "explain": "Futur II با werden ساخته می‌شود."
+   },
+   {
+    "q": "Bis morgen werde ich alles erledigt ___.",
+    "options": [
+     "haben",
+     "sein",
+     "worden"
+    ],
+    "answer": 1,
+    "explain": "erledigen با haben: erledigt haben."
+   },
+   {
+    "q": "Futur II = werden + ___",
+    "options": [
+     "Partizip II + haben/sein",
+     "Infinitiv",
+     "Partizip I"
+    ],
+    "answer": 1,
+    "explain": "Futur II: werden + Partizip II + haben/sein."
+   }
+  ]
+ },
+ {
+  "id": "B2-13",
+  "level": "B2",
+  "title": "Konditionalsätze ohne wenn, als ob und irreale Wünsche",
+  "title_fa": "شرط بدون wenn، als ob و آرزوهای غیرواقعی",
+  "explain": [
+   "جمله‌ی شرطی بدون wenn: فعل در ابتدای جمله می‌آید: «Hätte ich Zeit, würde ich kommen.» «Wäre es nicht so teuer, würde ich es kaufen.» با sollte (اگر احیاناً): «Sollten Sie Fragen haben, rufen Sie an.»",
+   "als ob / als wenn + Konjunktiv II (فعل آخر): «Er tut so, als ob er alles wüsste.» و بدون ob فعل بعد از als می‌آید: «… als wüsste er alles.»",
+   "آرزوی غیرواقعی: «Wenn ich doch Urlaub hätte!» / «Hätte ich doch Urlaub!» / «Ich wünschte, ich wäre reich.»"
+  ],
+  "examples": [
+   {
+    "de": "Hätte ich mehr Geld, würde ich ein Haus kaufen.",
+    "fa": "اگر پول بیشتری داشتم، خانه‌ای می‌خریدم."
+   },
+   {
+    "de": "Sollten Sie Fragen haben, rufen Sie mich an.",
+    "fa": "اگر احیاناً سؤالی داشتید، به من زنگ بزنید."
+   },
+   {
+    "de": "Er tut so, als wäre er der Chef.",
+    "fa": "او طوری رفتار می‌کند که انگار رئیس است."
+   },
+   {
+    "de": "Ich wünschte, ich könnte besser kochen.",
+    "fa": "کاش بهتر می‌توانستم آشپزی کنم."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "___ ich Zeit, würde ich kommen.",
+    "options": [
+     "Hätte",
+     "Habe",
+     "Hatte"
+    ],
+    "answer": 1,
+    "explain": "شرط بدون wenn با Konjunktiv II: Hätte ich …"
+   },
+   {
+    "q": "Er spricht, als ___ er alles.",
+    "options": [
+     "wüsste",
+     "weiß",
+     "wusste"
+    ],
+    "answer": 1,
+    "explain": "als + Konjunktiv II: als wüsste er alles."
+   },
+   {
+    "q": "___ Sie Fragen haben, melden Sie sich.",
+    "options": [
+     "Sollten",
+     "Wenn sollten",
+     "Falls sollten"
+    ],
+    "answer": 1,
+    "explain": "Sollten Sie … = اگر احیاناً …"
+   }
+  ]
+ },
+ {
+  "id": "B2-14",
+  "level": "B2",
+  "title": "Das Verb „lassen“",
+  "title_fa": "فعل lassen و معناهای آن",
+  "explain": [
+   "lassen = اجازه دادن: «Er lässt die Kinder spielen.»؛ وادار کردن یا سپردن کار به دیگری: «Ich lasse mein Auto reparieren.»؛ جا گذاشتن: «Ich habe den Schlüssel zu Hause gelassen.»",
+   "sich lassen + مصدر = مجهول + امکان (= können + Passiv): «Das Problem lässt sich lösen.» (= Das Problem kann gelöst werden.)",
+   "وقتی lassen با مصدر دیگر بیاید، در Perfekt به‌جای gelassen خودِ lassen (Ersatzinfinitiv) می‌آید: «Ich habe mir die Haare schneiden lassen.»"
+  ],
+  "examples": [
+   {
+    "de": "Ich lasse mir die Haare schneiden.",
+    "fa": "موهایم را (پیش آرایشگر) کوتاه می‌کنم."
+   },
+   {
+    "de": "Das Fenster lässt sich nicht öffnen.",
+    "fa": "پنجره باز نمی‌شود."
+   },
+   {
+    "de": "Er hat sein Handy im Büro gelassen.",
+    "fa": "او موبایلش را در دفتر جا گذاشت."
+   },
+   {
+    "de": "Lass mich bitte ausreden!",
+    "fa": "بگذار حرفم را تمام کنم!"
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Ich habe das Auto reparieren ___.",
+    "options": [
+     "lassen",
+     "gelassen",
+     "gelasst"
+    ],
+    "answer": 1,
+    "explain": "lassen + مصدر دیگر ← در Perfekt هم lassen."
+   },
+   {
+    "q": "Das Problem ___ sich lösen.",
+    "options": [
+     "lässt",
+     "lasst",
+     "lassen"
+    ],
+    "answer": 1,
+    "explain": "es / das Problem ← lässt."
+   },
+   {
+    "q": "Gestern hat sie den Schlüssel zu Hause ___.",
+    "options": [
+     "gelassen",
+     "lassen",
+     "gelasst"
+    ],
+    "answer": 1,
+    "explain": "بدون مصدر دیگر: gelassen."
+   }
+  ]
+ },
+ {
+  "id": "B2-15",
+  "level": "B2",
+  "title": "Passiversatzformen",
+  "title_fa": "جایگزین‌های مجهول",
+  "explain": [
+   "man + فعل معلوم: «Man kann das Problem lösen.» (مشکل را می‌شود حل کرد).",
+   "sein + zu + مصدر = müssen یا können + مجهول: «Die Aufgabe ist leicht zu lösen.» (قابل حل است)؛ «Der Antrag ist bis Freitag einzureichen.» (باید تحویل داده شود). برای فعل‌های جداشدنی zu وسط می‌آید: einzureichen، abzugeben.",
+   "sich lassen + مصدر (Das lässt sich machen) و صفت‌های با پسوند -bar، -lich و -fähig: lösbar، trinkbar، sichtbar، verständlich، lernfähig."
+  ],
+  "examples": [
+   {
+    "de": "Die Aufgabe ist leicht zu lösen.",
+    "fa": "این کار به‌راحتی قابل حل است."
+   },
+   {
+    "de": "Das Formular ist bis Montag einzureichen.",
+    "fa": "فرم باید تا دوشنبه تحویل داده شود."
+   },
+   {
+    "de": "Das Wasser ist trinkbar.",
+    "fa": "آب قابل نوشیدن است."
+   },
+   {
+    "de": "Man kann das Handy online bestellen.",
+    "fa": "موبایل را می‌شود آنلاین سفارش داد."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Das Problem ist leicht ___ lösen.",
+    "options": [
+     "zu",
+     "um zu",
+     "für"
+    ],
+    "answer": 1,
+    "explain": "sein + zu + مصدر."
+   },
+   {
+    "q": "Das Wasser ist ___. (man kann es trinken)",
+    "options": [
+     "trinkbar",
+     "trinkend",
+     "getrunken"
+    ],
+    "answer": 1,
+    "explain": "پسوند -bar = قابل."
+   },
+   {
+    "q": "Man kann es sehen = es ist ___",
+    "options": [
+     "sichtbar",
+     "sehend",
+     "gesehen"
+    ],
+    "answer": 1,
+    "explain": "sichtbar = قابل دیدن."
+   }
+  ]
+ },
+ {
+  "id": "B2-16",
+  "level": "B2",
+  "title": "Wortbildung: Präfixe, Suffixe, Komposita",
+  "title_fa": "واژه‌سازی: پیشوند، پسوند و واژه‌های مرکب",
+  "explain": [
+   "پسوندهای اسم‌ساز: -ung، -heit، -keit، -schaft و -in همیشه مؤنث‌اند (die Lösung، die Freiheit، die Möglichkeit، die Gesellschaft، die Lehrerin)؛ -er مذکر (der Lehrer)؛ -nis معمولاً خنثی یا مؤنث (das Ergebnis، die Erkenntnis)؛ -tum خنثی (das Eigentum).",
+   "پسوندهای صفت‌ساز: -lich (freundlich)، -ig (wichtig)، -isch (typisch)، -bar (lösbar)، -los (بدون: arbeitslos)، -voll (پر از: sinnvoll)، -sam (aufmerksam). پیشوندهای منفی و تشدیدی: un- (unmöglich)، miss- (der Misserfolg)، ur- (uralt).",
+   "پیشوندهای فعل: جداشدنی (ab-، an-، auf-، aus-، mit-) و جدانشدنی (be-، ent-، er-، ver-، zer-، miss-): kaufen ← verkaufen، stören ← zerstören. واژه‌ی مرکب: جزء آخر جنسیت را تعیین می‌کند: das Haus + die Tür = die Haustür."
+  ],
+  "examples": [
+   {
+    "de": "Die Möglichkeit besteht, dass er kommt.",
+    "fa": "این امکان وجود دارد که او بیاید."
+   },
+   {
+    "de": "Das ist ein sinnvoller Vorschlag.",
+    "fa": "این پیشنهاد معنادار (منطقی) است."
+   },
+   {
+    "de": "Nach dem Unfall war er arbeitslos.",
+    "fa": "پس از تصادف بیکار بود."
+   },
+   {
+    "de": "Der Misserfolg war eine wichtige Erfahrung.",
+    "fa": "شکست تجربه‌ی مهمی بود."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Nomen mit -ung sind immer ___.",
+    "options": [
+     "feminin",
+     "maskulin",
+     "neutral"
+    ],
+    "answer": 1,
+    "explain": "-ung = مؤنث (die)."
+   },
+   {
+    "q": "Hand + Tasche → ___ Handtasche",
+    "options": [
+     "die",
+     "der",
+     "das"
+    ],
+    "answer": 1,
+    "explain": "جزء آخر (die Tasche) جنسیت را تعیین می‌کند."
+   },
+   {
+    "q": "„-los“ bedeutet …",
+    "options": [
+     "ohne",
+     "mit",
+     "sehr"
+    ],
+    "answer": 1,
+    "explain": "arbeitslos = بدون کار."
    }
   ]
  }
