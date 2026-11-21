@@ -277,6 +277,16 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
             <span>فصل</span>
             <select id="filter-chapter"><option value="">همه</option></select>
           </div>
+          <div class="settings-row">
+            <span>سطح (A1 تا B2)</span>
+            <select id="filter-level">
+              <option value="">همه‌ی سطح‌ها</option>
+              <option value="A1">A1 · مبتدی</option>
+              <option value="A2">A2 · مقدماتی</option>
+              <option value="B1">B1 · متوسط</option>
+              <option value="B2">B2 · بالاتر از متوسط</option>
+            </select>
+          </div>
           <hr style="border:none;border-top:1px solid #334155;margin:14px 0" />
           <h3 style="font-size:.95rem;margin-bottom:8px">تنظیمات هوش مصنوعی</h3>
           <p class="hint" style="margin-bottom:8px">کلید API خود را وارد کنید (OpenAI، Groq، OpenRouter یا سازگار با OpenAI). فقط روی دستگاه شما ذخیره می‌شود.</p>
@@ -364,7 +374,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
   // کلیدهای ذخیره‌سازی در localStorage
   GD.KEYS = {
     SETTINGS: "gd_v3",        // تنظیمات کاربر
-    WORDS:    "gd_words_v7",  // کش لیست واژگان (v7: ۲۱۴۶ واژه + مثال جمع)
+    WORDS:    "gd_words_v8",  // کش لیست واژگان (v8: ۲۳۴۶ واژه + سطح A1–B2)
     GRAMMAR:  "gd_gram_v4",   // کش درس‌های گرامر
     CUSTOM:   "gd_custom_v3"  // واژه‌های ساخته‌شده با هوش مصنوعی
   };
@@ -388,6 +398,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
       startDate: new Date().toISOString().slice(0, 10),   // تاریخ شروع (برای شمارش روز)
       onlyVerbs: false,                                   // فقط افعال
       chapter: "",                                        // فیلتر فصل
+      level: "",                                          // فیلتر سطح (A1 تا B2؛ خالی = همه)
       known: {},                                          // واژه‌های یادگرفته‌شده
       leitner: {},                                        // لایتنر: {واژه: {b: جعبه ۱..۵, d: تاریخ مرور بعدی}}
       apiKey: "",                                         // کلید API
@@ -539,7 +550,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
     if (lines.length < 2) return [];
     const delim = lines[0].includes(";") ? ";" : ",";
     const headers = lines[0].split(delim).map(h => h.trim().replace(/^\uFEFF/, ""));
-    const map = {german:"g",ipa:"i",persian:"p",example_de:"ed",example_fa:"ef",chapter:"c",plural:"pl",plural_de:"pld",plural_fa:"plf",formen:"f",praeteritum:"pt",praeteritum_fa:"ptf",perfekt:"pf",perfekt_fa:"pff",plusquamperfekt:"pq",plusquamperfekt_fa:"pqf",futur:"fu",futur_fa:"fuf",konj_praesens:"kp",konj_praeteritum:"kpt",konj_perfekt:"kpf",konj_plusquamperfekt:"kpq",konj_futur:"kfu",konj_praeteritum_fa:"kptf",konj_perfekt_fa:"kpff",konj_plusquamperfekt_fa:"kpqf",konj_futur_fa:"kfuf"};
+    const map = {german:"g",ipa:"i",persian:"p",example_de:"ed",example_fa:"ef",chapter:"c",level:"lv",plural:"pl",plural_de:"pld",plural_fa:"plf",formen:"f",praeteritum:"pt",praeteritum_fa:"ptf",perfekt:"pf",perfekt_fa:"pff",plusquamperfekt:"pq",plusquamperfekt_fa:"pqf",futur:"fu",futur_fa:"fuf",konj_praesens:"kp",konj_praeteritum:"kpt",konj_perfekt:"kpf",konj_plusquamperfekt:"kpq",konj_futur:"kfu",konj_praeteritum_fa:"kptf",konj_perfekt_fa:"kpff",konj_plusquamperfekt_fa:"kpqf",konj_futur_fa:"kfuf"};
     const out = [];
     for (let i = 1; i < lines.length; i++) {
       const cols = GD.splitCSV(lines[i], delim);
@@ -616,7 +627,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
   // showTenses = true  → زمان‌های Präteritum/Perfekt و دکمه صرف کامل (برای افعال) نمایش داده می‌شود
   GD.renderCard = function (w, showTenses) {
     const esc = GD.esc;
-    let h = `<div class="chapter">${esc(w.c || "عمومی")}${w._custom ? ' <span class="tag ai-tag">AI</span>' : ""}</div>
+    let h = `<div class="chapter">${esc(w.c || "عمومی")}${w.lv ? ' <span class="level">' + esc(w.lv) + '</span>' : ""}${w._custom ? ' <span class="tag ai-tag">AI</span>' : ""}</div>
       <div class="word-main">${esc(w.g)}</div>${GD.pluralHTML(w)}<div class="ipa">${esc(w.i || "")}</div><div class="persian">${esc(w.p || "")}</div>`;
 
     // جمله مثال
@@ -688,6 +699,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
     const S = GD.state;
     let pool = S.settings.onlyVerbs ? S.verbs : S.words;
     if (S.settings.chapter) pool = pool.filter(w => w.c === S.settings.chapter);
+    if (S.settings.level) pool = pool.filter(w => w.lv === S.settings.level);
 
     const day = GD.getDayNumber(), seed = day * 7919;
     const sorted = pool.slice().sort((a, b) => GD.hash(a.g + seed) - GD.hash(b.g + seed));
@@ -1838,6 +1850,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
     $("per-day").value = S.settings.perDay;
     $("only-verbs").checked = S.settings.onlyVerbs;
     $("filter-chapter").value = S.settings.chapter || "";
+    $("filter-level").value = S.settings.level || "";
     $("api-key").value = S.settings.apiKey || "";
     $("api-base").value = S.settings.apiBase || "";
     // مهاجرت مدل‌های حذف‌شده به مدل جایگزین
@@ -1971,6 +1984,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
     };
     $("only-verbs").onchange = e => { S.settings.onlyVerbs = e.target.checked; GD.saveSettings(); GD.buildDailyList(); };
     $("filter-chapter").onchange = e => { S.settings.chapter = e.target.value; GD.saveSettings(); GD.buildDailyList(); };
+    $("filter-level").onchange = e => { S.settings.level = e.target.value; GD.saveSettings(); GD.buildDailyList(); };
     $("btn-reset").onclick = () => {
       if (confirm("روز شمار از اول شروع شود؟")) {
         S.settings.startDate = new Date().toISOString().slice(0, 10);
