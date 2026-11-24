@@ -1,5 +1,5 @@
 /* German Daily service worker - local-first app shell + translation cache. */
-const CACHE = "gd-shell-v14";
+const CACHE = "gd-shell-v20";
 const TR_CACHE = "gd-translate-v1";
 const TR_HOSTS = ["translate.googleapis.com", "api.mymemory.translated.net"];
 const TR_MAX = 500;

@@ -95,3 +95,53 @@
 - هر فعل در تب «افعال» دیده می‌شود و صرف کامل دارد: حال، گذشته‌ی ساده، ماضی نقلی، ماضی بعید و آینده، با ترجمه‌ی فارسی هر زمان و شش ضمیر (فعل‌های جداشدنی و بازتابی هم درست صرف می‌شوند).
 - جدول‌های صرف را با قاعده تولید و روی چند فعل بی‌قاعده کنترل کرده‌ام، پس بهتر است یک بار مرورشان کنید.
 - کش مرورگر (`gd_words_v11`) و Service Worker (`gd-shell-v14`) به‌روز شد.
+
+## به‌روزرسانی: بازنگری مثال‌ها + تکمیل صرف افعال کلیدی (نسخه v12)
+
+- **بهبود مثال‌ها** برای افعال: heißen، gefallen، vorhaben، stattfinden، durchfallen، sich verspäten (مثال‌های طبیعی‌تر و کاربردی‌تر برای زندگی روزمره و مهاجرت).
+- **تکمیل صرف کامل** برای افعال مهم که قبلاً جدول کامل نداشتند: warten، bringen، holen، erinnern.
+- **اضافه شدن** فعل lassen با صرف کامل به دستهٔ Verben.
+- مجموع واژگان: ۲۹۴۷.
+- کش مرورگر (`gd_words_v12`) و Service Worker (`gd-shell-v15`) به‌روز شد.
+
+## به‌روزرسانی: حدود ۹۰ لغت جدید (ربطی + امتحان + اقامت) – v13
+
+- **حروف ربط و اتصالات مهم**: obwohl, sodass, nachdem, bevor, sobald, solange, seitdem, weshalb, weswegen, daher, zudem, ferner, stattdessen, ansonsten, sofern, insofern, indem, wobei, wodurch, folglich, demzufolge, gleichwohl, nichtsdestotrotz, soweit, vorausgesetzt, angenommen, gesetzt den Fall, wohingegen, zumal, indessen, unterdessen, derweil و ...
+- **افعال و عبارات امتحان**: bestehen (die Prüfung bestehen), ablegen, durchfallen, nachholen, bestehen aus / in
+- **اقامت و اداری**: Aufenthaltserlaubnis, Niederlassungserlaubnis, Arbeitserlaubnis, Bürgeramt, Ausländeramt, Meldebescheinigung, Anmeldebestätigung, bewilligen, genehmigen
+- **قیدهای زمانی و مفید**: demnächst, in Kürze, längst, fortan, künftig, binnen, innerhalb, außerhalb, sogleich, unverzüglich, umgehend و ...
+- مجموع واژگان: **۳۰۳۸**
+- کش: `gd_words_v13` | Service Worker: `gd-shell-v16`
+
+## به‌روزرسانی: افعال جداشدنی + واژگان مهاجرت و کار – v14
+
+- **افعال جداشدنی جدید**: aufbleiben, eingehen, vorbeigehen, vorübergehen, ausdrucken, einreichen, vorlegen, anmachen, weggehen, herunterladen, hochladen, mitfahren, nachschauen, besprechen و ...
+- **واژگان مهاجرت و کار**: Blaue Karte EU, Chancenkarte, Einbürgerung, Integrationskurs, Orientierungskurs, Sprachprüfung, Meldepflicht, Bearbeitungszeit, Frist, gültig/ungültig, Arbeitsvertrag, Probezeit, Zusage/Absage, Bewerbung, Kündigung, Überweisung و ...
+- مجموع واژگان: **۳۰۷۱**
+- کش: `gd_words_v14` | Service Worker: `gd-shell-v17`
+
+## به‌روزرسانی: بیمه، مسکن، کار و زندگی روزمره – v15
+
+- **بیمه و مالیات**: Gehaltsabrechnung, Lohnsteuer, Sozialversicherung, Krankenversicherung, Rentenversicherung, Arbeitslosenversicherung, Arbeitslosengeld, Steuererklärung, Finanzamt, Steuernummer, Sozialversicherungsnummer, Krankenkasse, elektronische Gesundheitskarte
+- **سلامت**: Hausarzt, Facharzt, Rezept, Apotheke, Medikament, Nebenwirkung, Impfung, Krankschreibung, arbeitsunfähig, Arbeitsunfähigkeitsbescheinigung
+- **مسکن**: Kaution, Nebenkosten, Betriebskosten, Mietwohnung, Eigentumswohnung, Mietvertrag, Wohnungsbesichtigung, Maklergebühr, Schufa, Schufa-Auskunft, Nebenkostenabrechnung, Heizkosten, Stromrechnung, Stromanbieter, Internetanbieter
+- **سایر**: Handyvertrag, SIM-Karte, Prepaid-Tarif, Laufzeitvertrag
+- مجموع واژگان: **۳۱۱۰**
+- کش: `gd_words_v15` | Service Worker: `gd-shell-v18`
+
+## به‌روزرسانی: بانک، حمل‌ونقل، خرید و عبارات مفید – v16
+
+- **بانک و پول**: Girokonto, Sparkonto, Kontonummer, IBAN, BIC, Bankkarte, PIN, abheben, einzahlen, Dauerauftrag, Lastschrift, SEPA-Lastschriftmandat, Kontostand, Dispokredit, gebührenfrei
+- **حمل‌ونقل**: Monatskarte, Jahreskarte, Deutschlandticket, Bahnsteig, Durchsage, Fahrschein, schwarzfahren, Fahrkartenautomat, Navigator, Strecke, Umleitung
+- **خرید**: Kassenbon, Rückgabe, Umtausch, Reklamation, reklamieren, Lieferung, Versandkosten, kostenloser Versand
+- **عبارات مفید**: auf jeden Fall, auf keinen Fall, in der Tat, im Grunde, im Prinzip, vor allem, in erster Linie, letzten Endes, im Endeffekt, sozusagen, gewissermaßen, praktisch gesehen, streng genommen, genau genommen, kurz gesagt, mit anderen Worten, unter anderem
+- مجموع واژگان: **۳۱۷۱**
+- کش: `gd_words_v16` | Service Worker: `gd-shell-v19`
+
+## به‌روزرسانی: محیط کار، شیفت و احساسات – v17
+
+- **محیط کار**: Meeting, Agenda, Protokoll, Präsentation, präsentieren, Deadline, bearbeiten, weiterleiten, Anhang, anhängen, Rückmeldung, Rückfrage, klären, To-do-Liste, priorisieren, Priorität, eilig, Vertretung, vertreten, Urlaubsvertretung
+- **ساعت کاری**: Homeoffice, Remote-Arbeit, Gleitzeit, Kernarbeitszeit, Überstunden, abbauen, Pausenzeiten, Mittagspause, Frühschicht, Spätschicht, Nachtschicht
+- **احساسات و تعامل**: Entschuldigung, sich aufregen über, sich Sorgen machen, sich schämen für, sich freuen, enttäuscht sein, überrascht sein, stolz sein auf, Stolz, neidisch sein auf
+- مجموع واژگان: **۳۲۱۲**
+- کش: `gd_words_v17` | Service Worker: `gd-shell-v20`
