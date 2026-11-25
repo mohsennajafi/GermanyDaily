@@ -113,35 +113,22 @@
 - مجموع واژگان: **۳۰۳۸**
 - کش: `gd_words_v13` | Service Worker: `gd-shell-v16`
 
-## به‌روزرسانی: افعال جداشدنی + واژگان مهاجرت و کار – v14
+## به‌روزرسانی: واژگان و جملات حوزه کامپیوتر و فناوری – v15
 
-- **افعال جداشدنی جدید**: aufbleiben, eingehen, vorbeigehen, vorübergehen, ausdrucken, einreichen, vorlegen, anmachen, weggehen, herunterladen, hochladen, mitfahren, nachschauen, besprechen و ...
-- **واژگان مهاجرت و کار**: Blaue Karte EU, Chancenkarte, Einbürgerung, Integrationskurs, Orientierungskurs, Sprachprüfung, Meldepflicht, Bearbeitungszeit, Frist, gültig/ungültig, Arbeitsvertrag, Probezeit, Zusage/Absage, Bewerbung, Kündigung, Überweisung و ...
-- مجموع واژگان: **۳۰۷۱**
-- کش: `gd_words_v14` | Service Worker: `gd-shell-v17`
-
-## به‌روزرسانی: بیمه، مسکن، کار و زندگی روزمره – v15
-
-- **بیمه و مالیات**: Gehaltsabrechnung, Lohnsteuer, Sozialversicherung, Krankenversicherung, Rentenversicherung, Arbeitslosenversicherung, Arbeitslosengeld, Steuererklärung, Finanzamt, Steuernummer, Sozialversicherungsnummer, Krankenkasse, elektronische Gesundheitskarte
-- **سلامت**: Hausarzt, Facharzt, Rezept, Apotheke, Medikament, Nebenwirkung, Impfung, Krankschreibung, arbeitsunfähig, Arbeitsunfähigkeitsbescheinigung
-- **مسکن**: Kaution, Nebenkosten, Betriebskosten, Mietwohnung, Eigentumswohnung, Mietvertrag, Wohnungsbesichtigung, Maklergebühr, Schufa, Schufa-Auskunft, Nebenkostenabrechnung, Heizkosten, Stromrechnung, Stromanbieter, Internetanbieter
-- **سایر**: Handyvertrag, SIM-Karte, Prepaid-Tarif, Laufzeitvertrag
-- مجموع واژگان: **۳۱۱۰**
+- **سخت‌افزار**: Bildschirm, Tastatur, Maus, Drucker, Scanner, USB-Stick, Festplatte, Speicher, Prozessor, Arbeitsspeicher, Grafikkarte, Netzteil, Ladekabel, Akku, aufladen
+- **نرم‌افزار و سیستم‌عامل**: Betriebssystem, Windows, Linux, installieren, deinstallieren, aktualisieren, Update, Version, Benutzeroberfläche, Passwort, Kennwort, Benutzername, anmelden/abmelden
+- **فایل و داده**: Datei, Ordner, speichern, löschen, kopieren, einfügen, ausschneiden, hochladen, herunterladen, Cloud, Sicherung, wiederherstellen
+- **اینترنت**: WLAN, WLAN-Passwort, online/offline, Website, Link, klicken, Suchmaschine, Browser, Tab, Startseite, Spam
+- **برنامه‌نویسی**: programmieren, Code, Fehler, debuggen, Programmiersprache, Entwicklung, Entwickler, Framework, API, testen, Bug, beheben
+- **امنیت و مدرن**: Sicherheit, Firewall, Virus, Antivirensoftware, verschlüsseln, KI, Machine Learning, Datenbank, Server, Domain, IP-Adresse
+- **جملات کاربردی**: Mein Computer stürzt ab. / Die Internetverbindung ist langsam. / Ich habe mein Passwort vergessen. / Bitte speichere die Datei. / Die Software muss aktualisiert werden. / Ich arbeite remote. و ...
+- مجموع واژگان: **۳۲۷۶**
 - کش: `gd_words_v15` | Service Worker: `gd-shell-v18`
 
-## به‌روزرسانی: بانک، حمل‌ونقل، خرید و عبارات مفید – v16
+## به‌روزرسانی: افعال و جملات بیشتر کامپیوتر و دورکاری – v16
 
-- **بانک و پول**: Girokonto, Sparkonto, Kontonummer, IBAN, BIC, Bankkarte, PIN, abheben, einzahlen, Dauerauftrag, Lastschrift, SEPA-Lastschriftmandat, Kontostand, Dispokredit, gebührenfrei
-- **حمل‌ونقل**: Monatskarte, Jahreskarte, Deutschlandticket, Bahnsteig, Durchsage, Fahrschein, schwarzfahren, Fahrkartenautomat, Navigator, Strecke, Umleitung
-- **خرید**: Kassenbon, Rückgabe, Umtausch, Reklamation, reklamieren, Lieferung, Versandkosten, kostenloser Versand
-- **عبارات مفید**: auf jeden Fall, auf keinen Fall, in der Tat, im Grunde, im Prinzip, vor allem, in erster Linie, letzten Endes, im Endeffekt, sozusagen, gewissermaßen, praktisch gesehen, streng genommen, genau genommen, kurz gesagt, mit anderen Worten, unter anderem
-- مجموع واژگان: **۳۱۷۱**
+- **افعال عملی**: starten, neu starten, trennen, synchronisieren, drucken, scannen, formatieren, komprimieren, entpacken, umbenennen, minimieren, maximieren, scrollen, zoomen
+- **دورکاری و همکاری**: remote arbeiten, Homeoffice, Videokonferenz, Meeting, Bildschirm teilen, stummschalten, Kamera ein-/ausschalten, Chat, tippen
+- **جملات کاربردی جدید**: Der Computer reagiert nicht. / Ich muss den Cache leeren. / Die Seite lädt nicht. / Kannst du den Bildschirm teilen? / Mein Mikrofon funktioniert nicht. / Ich habe den Fehler behoben. / Welche Programmiersprache lernst du? / Ich bin Entwickler. و ...
+- مجموع واژگان: **۳۳۱۵**
 - کش: `gd_words_v16` | Service Worker: `gd-shell-v19`
-
-## به‌روزرسانی: محیط کار، شیفت و احساسات – v17
-
-- **محیط کار**: Meeting, Agenda, Protokoll, Präsentation, präsentieren, Deadline, bearbeiten, weiterleiten, Anhang, anhängen, Rückmeldung, Rückfrage, klären, To-do-Liste, priorisieren, Priorität, eilig, Vertretung, vertreten, Urlaubsvertretung
-- **ساعت کاری**: Homeoffice, Remote-Arbeit, Gleitzeit, Kernarbeitszeit, Überstunden, abbauen, Pausenzeiten, Mittagspause, Frühschicht, Spätschicht, Nachtschicht
-- **احساسات و تعامل**: Entschuldigung, sich aufregen über, sich Sorgen machen, sich schämen für, sich freuen, enttäuscht sein, überrascht sein, stolz sein auf, Stolz, neidisch sein auf
-- مجموع واژگان: **۳۲۱۲**
-- کش: `gd_words_v17` | Service Worker: `gd-shell-v20`

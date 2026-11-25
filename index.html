@@ -380,8 +380,8 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
   // کلیدهای ذخیره‌سازی در localStorage
   GD.KEYS = {
     SETTINGS: "gd_v3",        // تنظیمات کاربر
-    WORDS:    "gd_words_v17",  // کش لیست واژگان (v17: ۳۲۱۲ واژه + محیط کار، شیفت و احساسات)
-    GRAMMAR:  "gd_gram_v4",   // کش درس‌های گرامر
+    WORDS:    "gd_words_v16",  // کش لیست واژگان (v16: ۳۳۱۵ واژه + افعال و جملات بیشتر حوزه کامپیوتر و دورکاری)
+    GRAMMAR:  "gd_gram_v5",   // کش درس‌های گرامر (v5: ۶۳ درس + آزمون)
     CUSTOM:   "gd_custom_v3"  // واژه‌های ساخته‌شده با هوش مصنوعی
   };
 
@@ -528,7 +528,9 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
     try {
       const [wRes, gRes] = await Promise.all([fetch(GD.PATHS.WORDS), fetch(GD.PATHS.GRAMMAR)]);
       const newW = await wRes.json(), newG = await gRes.json();
-      if (newW.length !== S.words.length - S.customWords.length) {
+      const gramChanged = JSON.stringify(newG.map(x => x.id + ":" + (x.quiz ? x.quiz.length : 0) + ":" + (x.examples ? x.examples.length : 0))) !==
+                          JSON.stringify(S.grammar.map(x => x.id + ":" + (x.quiz ? x.quiz.length : 0) + ":" + (x.examples ? x.examples.length : 0)));
+      if (newW.length !== S.words.length - S.customWords.length || gramChanged) {
         S.words = newW;
         S.grammar = newG;
         GD.mergeCustom();
@@ -632,6 +634,7 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
   // نمایش دسته‌ها: ایموجی + نام فارسی (ترتیب نمایش در تنظیمات همین ترتیب است)
   GD.CHAPTER_META = {
     "Begrüßung": ["👋", "سلام و احوال‌پرسی"], "Umgangssprache": ["💬", "محاوره‌ای"], "Redewendungen": ["🎯", "اصطلاحات"],
+    "Alltagssätze": ["🗣️", "جمله‌های کاربردی"],
     "Alltag": ["🏠", "روزمره"], "Vergleich": ["⚖️", "مقایسه و متضاد"], "Mann und Frau": ["👫", "مرد و زن"],
     "Familie": ["👨‍👩‍👧", "خانواده"], "Gefühle": ["💛", "احساسات"], "Essen": ["🍽️", "غذا"], "Wohnen": ["🏡", "مسکن"],
     "Reisen": ["✈️", "سفر"], "Freizeit": ["🎮", "اوقات فراغت"], "Natur": ["🌿", "طبیعت"], "Gesundheit": ["🩺", "سلامت"],
@@ -845,9 +848,35 @@ select,input[type=number]{background:#0f172a;border:1px solid #475569;color:#fff
         h += `<div class="example" style="margin-bottom:6px"><div class="de">${esc(ex.de || "")}</div><div class="fa">${esc(ex.fa || "")}</div></div>`;
       }
     }
+    if (g.quiz && g.quiz.length) {
+      h += `<h3 style="margin:16px 0 6px;color:var(--accent)">آزمون کوتاه</h3>`;
+      g.quiz.forEach((q, qi) => {
+        h += `<div class="gquiz" data-qi="${qi}" data-ans="${q.answer}" style="margin-bottom:12px"><div style="direction:ltr;text-align:left;font-weight:600;margin-bottom:6px">${esc(q.q)}</div><div class="gq-opts" style="display:flex;flex-direction:column;gap:6px">`;
+        q.options.forEach((o, oi) => {
+          h += `<button type="button" class="gq-opt" data-opt="${oi + 1}" style="direction:ltr;text-align:left;background:#0f172a;color:var(--text);border:1px solid #334155;border-radius:10px;padding:9px 12px;font-size:.88rem;cursor:pointer">${esc(o)}</button>`;
+        });
+        h += `</div><div class="gq-exp" style="display:none;margin-top:6px;font-size:.82rem;color:var(--muted)">${esc(q.explain || "")}</div></div>`;
+      });
+    }
     h += `<button class="btn ai" style="width:100%;margin-top:14px" data-expand-gram="${g.id}">✨ تقویت این درس با هوش مصنوعی</button>`;
     GD.openModal(g.title_fa || g.title, h);
   };
+
+  // پاسخ دادن به آزمون‌های گرامر (تفویض رویداد روی بدنه‌ی مودال)
+  document.addEventListener("click", function (e) {
+    const btn = e.target.closest(".gq-opt");
+    if (!btn) return;
+    const box = btn.closest(".gquiz");
+    if (!box || box.dataset.done) return;
+    box.dataset.done = "1";
+    const ans = box.dataset.ans, picked = btn.dataset.opt;
+    box.querySelectorAll(".gq-opt").forEach(b => {
+      if (b.dataset.opt === ans) { b.style.background = "rgba(34,197,94,.2)"; b.style.borderColor = "#22c55e"; }
+      else if (b === btn) { b.style.background = "rgba(239,68,68,.2)"; b.style.borderColor = "#ef4444"; }
+    });
+    const exp = box.querySelector(".gq-exp");
+    if (exp) { exp.style.display = "block"; exp.textContent = (picked === ans ? "✅ درست! " : "❌ نادرست. ") + exp.textContent; }
+  });
 
   // ==================================================================
   // هوش مصنوعی
