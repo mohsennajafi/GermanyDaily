@@ -132,3 +132,80 @@
 - **جملات کاربردی جدید**: Der Computer reagiert nicht. / Ich muss den Cache leeren. / Die Seite lädt nicht. / Kannst du den Bildschirm teilen? / Mein Mikrofon funktioniert nicht. / Ich habe den Fehler behoben. / Welche Programmiersprache lernst du? / Ich bin Entwickler. و ...
 - مجموع واژگان: **۳۳۱۵**
 - کش: `gd_words_v16` | Service Worker: `gd-shell-v19`
+
+## به‌روزرسانی: اصطلاحات گرامری و کلمات مثال‌ها – v17
+
+کلماتی که در بخش گرامر و مثال‌های برنامه استفاده می‌شوند به دایره لغات اضافه شدند:
+
+- **اصطلاحات گرامری**: Personalpronomen, Artikel, Genus, Plural, Singular, Negation, Akkusativ, Dativ, Genitiv, Modalverb, trennbares Verb, Possessivartikel, Präsens, Perfekt, Präteritum, Plusquamperfekt, Futur, Passiv, Konjunktiv, Relativsatz, Nebensatz, Hauptsatz, Konjunktion, Präposition, Komparativ, Superlativ, Imperativ, Adjektiv, Adverb, Deklination, Konjugation, Partizip, Infinitiv, Wortstellung, Gesprächspartikel, Konnektor
+- **عبارات و کلمات رایج از مثال‌ها**: Hunger haben, Durst haben, zu Hause, Zeit haben, woher, wohin, ob, um ... zu و ...
+- مجموع واژگان: **۳۳۶۴**
+- کش: `gd_words_v17` | Service Worker: `gd-shell-v20`
+
+## به‌روزرسانی: عبارات و کلمات بیشتر از مثال‌های گرامر – v18
+
+- عبارات روزمره از مثال‌های گرامر: rauchen, früh aufstehen, Jahre alt sein, Telefonnummer, Stock, halb acht, Viertel nach, von ... bis, im Sommer, ans Meer, montags, mittwochs, Deutschkurs, es gibt, langsamer sprechen, nicht verstanden, Was bedeutet ...?, Toilette, Wie viel kostet das?, Ich hätte gern ..., Hilfe brauchen, mit dem Bus fahren, ein bisschen, aus dem Iran, Pass, Wie sagt man ... auf Deutsch?, Können Sie mir bitte helfen?, Unterricht و ...
+- مجموع واژگان: **۳۳۹۴**
+- کش: `gd_words_v18` | Service Worker: `gd-shell-v21`
+
+## به‌روزرسانی: واژگان و اصطلاحات از Begegnungen B1+ – v19
+
+استخراج‌شده از موضوعات کتاب Begegnungen B1+ (Schubert Verlag):
+
+- **زمان و وقت‌شناسی**: pünktlich, unpünktlich, auf die Minute genau, einen Termin einhalten, zeitraubend, die Zeit verschwenden / genießen
+- **کار و شغل**: Berufserfahrung, Gehaltserhöhung, vorwärtskommen, verantwortlich sein für, berichten über, Fähigkeit, Erfolg
+- **ویژگی‌های شخصیتی**: mutig, feige, risikofreudig, großzügig, geizig, zuverlässig, flexibel, streitsüchtig, verständnisvoll, zurückhaltend, hilfsbereit, geduldig
+- **افعال با حرف اضافه**: warten auf, sich treffen mit, sich unterhalten mit ... über, sich entschuldigen bei, sich bedanken bei ... für, verzichten auf, sich freuen auf/über, sich ärgern über, sich interessieren für, denken an, sich kümmern um, bestehen aus, teilnehmen an, sich beschäftigen mit, sich beschweren über, sich entscheiden für
+- **عبارات مفید**: eine Auswahl treffen, bevorzugen, einen Traum verwirklichen, einen Wunsch erfüllen, im Stau stehen, anwesend, abwesend, mindestens, höchstens
+
+مجموع واژگان: **۳۴۲۱**
+کش: `gd_words_v19` | Service Worker: `gd-shell-v22`
+
+## به‌روزرسانی: حمل‌ونقل، غذا، رسانه و حروف ربط – v20
+
+ادامه واژگان Begegnungen B1+:
+
+- **حمل‌ونقل**: Verkehrsmittel, S-Bahn, abbiegen, überqueren, Fahrkarte lösen, Verspätung haben, Fahrplanauskunft
+- **غذا و مصرف**: Zutaten, zubereiten, Geschmack, konsumieren
+- **رسانه و نظر**: Nachrichtensendung, Serie, streamen, berichten, Meinung äußern, Diskussion
+- **حروف ربط و عبارات**: es kommt darauf an, meiner Meinung nach, ich bin der Meinung dass, sowohl ... als auch, entweder ... oder, weder ... noch, je ... desto, nicht nur ... sondern auch
+
+مجموع واژگان: **۳۴۴۶**
+کش: `gd_words_v20` | Service Worker: `gd-shell-v23`
+
+## به‌روزرسانی: غذا، ترافیک، مصرف – ادامه Begegnungen B1 – v20
+
+- **غذا**: abschmecken, Hauptspeise, Vorspeise, Nachspeise, Zutat, zubereiten, würzen, Geschmack, lecker, bitter, sauer, salzig, süß, scharf
+- **ترافیک و رانندگی**: Fahrbahn, Bürgersteig, Zebrastreifen, Geschwindigkeitsbegrenzung, Fahrschule, parken, Parkplatz, tanken, Unfall, Baustelle, Umleitung, Führerschein, Ampel
+- **مصرف و تبلیغات**: werben für, Marke, Qualität, sich leisten können, Konsum, Verbraucher, Werbung
+- مجموع واژگان: **۳۴۶۴**
+- کش: `gd_words_v20` | Service Worker: `gd-shell-v23`
+
+## به‌روزرسانی: واژگان و گرامر بیشتر از Begegnungen B1 – v21
+
+- **واژگان جدید**: ۲۶ واژه‌ی غیرتکراری (مجموع: **۳۴۹۰**)؛ بقیه‌ی واژه‌های بررسی‌شده از قبل در برنامه بودند.
+- **گرامر جدید (۳ درس)**: B1-16 صفت‌های اسم‌شده، B1-17 جمله‌های زمانی (seit، bis، sobald، solange)، B1-18 ترتیب مفعول Dativ و Akkusativ
+- کش: `gd_words_v21` و `gd_gram_v6` | Service Worker: `gd-shell-v24`
+
+## به‌روزرسانی: صرف کامل افعال جدید – v22
+
+- صرف کامل (Präteritum، Perfekt، Plusquamperfekt، Futur و صرف شش شخص با ترجمه‌ی فارسی) برای ۱۰ فعل جدید: einstellen, sich ernähren, sich ärgern, sich sorgen um, sich entschließen zu, stornieren, sich integrieren, recyceln, verbrauchen, sich informieren über
+- کش: `gd_words_v22` | Service Worker: `gd-shell-v25`
+
+## به‌روزرسانی: صرف کامل برای بقیه‌ی افعال – v23
+
+- صرف کامل (Präteritum، Perfekt، Plusquamperfekt، Futur و صرف شش شخص با ترجمه‌ی فارسی) برای **۲۹۹ فعل** دیگر اضافه شد؛ شامل افعال بی‌قاعده (lesen، schwimmen، treffen، ...)، افعال جداشدنی (hochladen، aufwachen، ...) و بازتابی (sich merken، sich duschen، ...)
+- جمله‌های زمان‌های مختلف به‌صورت کوتاه و بدون مفعول نوشته شده‌اند (مثلاً Ich habe gelesen.)؛ مثال اصلی هر واژه سر جایش است.
+- ۶ اصطلاح فعلی (مثل den Faden verlieren) صرف نشدند چون جمله‌ی ثابت هستند.
+- کش: `gd_words_v23` | Service Worker: `gd-shell-v26`
+
+## به‌روزرسانی: گسترش واژگان به ۳۵۸۰ – v24
+
+- ۹۰ واژه‌ی جدید غیرتکراری (بدن، لباس، حیوانات، طبیعت، خانه، حرفه‌ها، غذا، سفر، خانواده، احساسات، قیدها و ...)
+- بیشتر واژه‌های پایه‌ی A1–B1 که بررسی شد از قبل در برنامه بودند؛ برای رسیدن به ۵۰۰۰ باید به سراغ سطح B2/C1 و موضوع‌های تخصصی رفت.
+- مجموع واژگان: **۳۵۸۰** | کش: `gd_words_v24` | Service Worker: `gd-shell-v27`
+
+## به‌روزرسانی: واژگان B2 و موضوع‌های تخصصی – v25
+
+- ۱۹۴ واژه‌ی جدید غیرتکراری: سیاست و حقوق، اقتصاد، جامعه، پزشکی، کشورها و ملیت‌ها، زبان‌ها، هنر و ادبیات، رسانه، فناوری، علم و محیط‌زیست
+- مجموع واژگان: **۳۷۷۴** | کش: `gd_words_v25` | Service Worker: `gd-shell-v28`
